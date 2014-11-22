@@ -7,6 +7,10 @@ app.set('views','./views');
 app.set('view engine', 'xtpl');
 app.set('port', 3000);
 
+app.get('/simple',function(req, res){
+    res.render('simple',{title:'xtemplate'});
+});
+
 
 app.get('/index',function(req, res){
     res.render('index',{title:'xtemplate',content:'this is demo'});
