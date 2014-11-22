@@ -1,0 +1,9 @@
+{
+    "name": "xtemplate-express-demo",
+    "description": "xtemplate on express demo",
+    "devDependencies": {
+        "express": "~3.4.8",
+        "xtemplate": "^3.1.0",
+        "xtpl": "^3.1.0"
+    }
+}
